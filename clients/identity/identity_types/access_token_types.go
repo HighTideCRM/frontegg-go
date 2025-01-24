@@ -3,7 +3,7 @@ package identity_types
 type AccessTokenType string
 
 const (
-	AccessTokenTypeUser    AccessTokenType = "user"
+	AccessTokenTypeUser    AccessTokenType = "userToken"
 	AccessTokenTypeTenant  AccessTokenType = "tenantApiToken"
 	AccessTokenTypeUserApi AccessTokenType = "userApiToken"
 )
